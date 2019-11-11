@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "com.magicleap.capi.sample.pcf", "com.magicleap.capi.sample.pcf.vcxproj", "{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ML = Debug|ML
+		Debug|x64 = Debug|x64
+		Release|ML = Release|ML
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Debug|ML.ActiveCfg = Debug|ML
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Debug|ML.Build.0 = Debug|ML
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Debug|x64.ActiveCfg = Debug|x64
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Debug|x64.Build.0 = Debug|x64
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Release|ML.ActiveCfg = Release|ML
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Release|ML.Build.0 = Release|ML
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Release|x64.ActiveCfg = Release|x64
+		{8FA9F612-7C66-4A9E-8AAD-C874FFC7F5D4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {393765A5-892C-4161-AC35-5FF0DE80F979}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+REFS = image_tracking
+
+DATAS.device= \
+  data/*.png : data/ \
+
+DATAS.host= \
+  data/*.png : $(SPEC)/data/ \

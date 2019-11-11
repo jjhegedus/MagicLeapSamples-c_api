@@ -1,0 +1,32 @@
+#
+# This package defines the distribution layout content for SDK Native Samples
+#
+
+OUT = dist/sdk_native_samples
+
+OPTIONS = package/useHardLinks/off
+
+DATAS= \
+  # \
+  # common binaries \
+  # \
+  BUILD/$(SPEC)/controller$(PROGRAM_EXT)               : native_samples/ \
+  BUILD/$(SPEC)/head_tracking$(PROGRAM_EXT)            : native_samples/ \
+  BUILD/$(SPEC)/image_capture$(PROGRAM_EXT)            : native_samples/ \
+  BUILD/$(SPEC)/image_tracking$(PROGRAM_EXT)           : native_samples/ \
+  BUILD/$(SPEC)/meshing$(PROGRAM_EXT)                  : native_samples/ \
+  BUILD/$(SPEC)/pcf$(PROGRAM_EXT)                      : native_samples/ \
+  BUILD/$(SPEC)/simple_gl_app$(PROGRAM_EXT)            : native_samples/ \
+  # native test dependencies \
+  BUILD/$(SPEC)/$(SHARED_PREFIX)*$(SHARED_EXT)*        : native_samples/ \
+  BUILD/$(SPEC)/data/                                  : native_samples/data/ \
+  # \
+  # device mpks \
+  # \
+  BUILD/com.magicleap.capi.sample.controller.mpk        : device_samples/ \
+  BUILD/com.magicleap.capi.sample.head_tracking.mpk     : device_samples/ \
+  BUILD/com.magicleap.capi.sample.image_capture.mpk     : device_samples/ \
+  BUILD/com.magicleap.capi.sample.image_tracking.mpk    : device_samples/ \
+  BUILD/com.magicleap.capi.sample.meshing.mpk           : device_samples/ \
+  BUILD/com.magicleap.capi.sample.pcf.mpk               : device_samples/ \
+  BUILD/com.magicleap.capi.sample.simple_gl_app.mpk     : device_samples/ \

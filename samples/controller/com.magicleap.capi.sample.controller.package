@@ -1,0 +1,11 @@
+REFS = controller
+
+DATAS.device= \
+  data/Controller.fbx : data/ \
+  data/Controller.fbm/ : data/Controller.fbm/ \
+  data/Touchpad_arrow.fbx : data/ \
+
+DATAS.host= \
+  data/Controller.fbx : $(SPEC)/data/ \
+  data/Controller.fbm/ : $(SPEC)/data/Controller.fbm/ \
+  data/Touchpad_arrow.fbx : $(SPEC)/data/ \
